@@ -9,6 +9,6 @@ print(" a NOta Primeiro bimestre é : ",nota3)
 print(" a NOta Primeiro bimestre é : ",nota4)
 
 if media >=7:
-    print("Aprovado")
+    print(" Aprovado ")
 else :
-    print("Não aprovado")
+    print(" Não aprovado ")
