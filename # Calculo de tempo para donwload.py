@@ -1,7 +1,6 @@
 # Calculo de tempo para donwload
-tamanho =input(float("Qual tamanho do arquivo "))
-velocidade =input(float("Velocidade internet "))
+tamanho = float(input('Tamanho do arquivo (MB): '))
+velocidade = float(input('Velocidade de Internet (MBps): '))
+print('Tempo aproximado de download: %.0f Minutos ' %((tamanho / velocidade) * 60))
 
-tp=(velocidade/tamanho)*2
 
-print(tp)
