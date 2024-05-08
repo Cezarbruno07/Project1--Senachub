@@ -1,5 +1,6 @@
-input int = ('Digite sua nota ='n)
-numeros = [5, 10, 15, 20, 25]
 soma = sum(numeros)
-media = soma / len(numeros)
-print("A média dos números é:", media)
+n1 = float(input("digite um numero"))
+n2 = float(input("digite um numero"))
+p=n1+n2
+num = int(p)
+print(num)
