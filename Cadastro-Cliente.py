@@ -1,6 +1,6 @@
-#Criando Janela:
+#Criando Janela: Cadastro de alunos Arena conda 
 
-janela = tk.Tk()
+janela =tk.Tk()
 janela.title('Cadastro de alunos ')
 janela. geometry("330x350")
 
@@ -10,12 +10,12 @@ def cadastrar_cliente():
     c = conexao.cursor()
 
     #Inserir dados na tabela:
-    c.execute("INSERT INTO clientes VALUES (:nome,:sobrenome,:email,:telefone)",
-              {
-                  'nome': entry_nome.get(),
-                  'sobrenome': entry_sobrenome.get(),
-                  'email': entry_email.get(),
-                  'telefone': entry_telefone.get()
+    c.execute("INSERT INTO clientes VALUES (:nome,:sobrenome,:email,:telefone",c
+    {
+    'nome': entry_nome.get(),
+    'sobrenome': entry_sobrenome.get(),
+    'email': entry_email.get(),
+    'telefone': entry_telefone.get()
               })
 
 
