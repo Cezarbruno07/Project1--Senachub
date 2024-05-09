@@ -1,6 +1,6 @@
 #Criando Janela:
 
-janela = tk.Tk()
+janela = tk ()
 janela.title('Cadastro de alunos ')
 janela. geometry("330x350")
 
