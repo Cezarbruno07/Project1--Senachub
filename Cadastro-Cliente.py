@@ -1,18 +1,18 @@
 #Criando Janela: Cadastro de alunos Arena conda 
 
-
+""" """ """ 
 #janela = tk ()
 print janela.title('Cadastro de alunos ')
 print janela.geometry("330x350")
-=======
-janela= tk= ("Escolinha conda")
+======= """
+""" janela= tk= ("Escolinha conda")
 janela.title('Cadastro de alunos ')
-janela. geometry("330x350")
- 
-
-
+janela. geometry("330x350") """
+  """
+ """
+import  (cadastrodealunos.db)
 def cadastrar_cliente():
-    conexao = "sql"sqlite3.connect('clientes.db')
+    conexao = "sql"sqlite3.connect('cadastrodealunos.db')
     c = conexao.cursor()
 
     #Inserir dados na tabela:
@@ -56,7 +56,7 @@ def exporta_clientes():
 
 
 #Rótulos Entradas:
-label_nome = tk.Label(janela, text='Nome')
+label_nome = cadastroalunos.db.Label(janela, text='Nome')
 label_nome.grid(row=0,column=0, padx=10, pady=10)
 
 label_sobrenome = tk.Label(janela, text='Sobrenome')

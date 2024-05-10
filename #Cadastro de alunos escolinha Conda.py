@@ -1,7 +1,7 @@
 
 #Cadastro de alunos escolinha Conda 
 import sqlite3
-banco = sqlite3.connect('Cadastro de alunos.db')
+banco = sqlite3.connect('Cadastrodealunos.db')
 cursor = banco.cursor()
 
 #cursor.execute("CREAT TABLE Alunos(Nome text,idade integer,email text)")
