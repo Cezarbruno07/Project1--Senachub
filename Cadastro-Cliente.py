@@ -1,8 +1,8 @@
 #Criando Janela:
 
-janela = tk ()
-janela.title('Cadastro de alunos ')
-janela. geometry("330x350")
+#janela = tk ()
+print janela.title('Cadastro de alunos ')
+print janela.geometry("330x350")
 
 
 def cadastrar_cliente():
