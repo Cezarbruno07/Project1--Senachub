@@ -1,5 +1,5 @@
 letra = input("Digite uma letra: ").upper()
-
+loop=letra
 if (
     letra == "A"
     or letra == "E"
