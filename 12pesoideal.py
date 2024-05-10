@@ -7,7 +7,7 @@ sexo = (input("Qual teu sexo? Masculino (M) ou Feminino (F)? "))
 altura = (input("Digite tua altura: "))
 
 peso_ideal_m = (72.7 * float(altura)) - 58
-peso_ideal_f = (62.1 * float(altura)) - 44.7
+peso_ideal_f = (62.1 * float(altura)) - 44.73
 
 if sexo == "M":
     print("Teu peso ideal eh %.2f: " % peso_ideal_m)
