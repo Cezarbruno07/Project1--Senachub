@@ -5,7 +5,7 @@ banco = sqlite3.connect('Cadastro de alunos.db')
 cursor = banco.cursor()
 
 #cursor.execute("CREAT TABLE Alunos(Nome text,idade integer,email text)")
-cursor.execute("INSERT INTO alunos VALUES(,na,40,'Maria_123@gmail.com')")
+cursor.execute("INSERT INTO alunos VALUES(,Maria,40,'Maria_123@gmail.com')")
 banco.commit()
 cursor.execute("SELECT *FROM pessoas")
 
