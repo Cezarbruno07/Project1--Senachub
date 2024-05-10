@@ -1,22 +1,22 @@
 #Criando Janela: Cadastro de alunos Arena conda 
 
-janela =tk.Tk()
+janela= tk= ("Escolinha conda")
 janela.title('Cadastro de alunos ')
 janela. geometry("330x350")
 
 
 def cadastrar_cliente():
-    conexao = sqlite3.connect('clientes.db')
+    conexao = "sql"sqlite3.connect('clientes.db')
     c = conexao.cursor()
 
     #Inserir dados na tabela:
-    c.execute("INSERT INTO clientes VALUES (:nome,:sobrenome,:email,:telefone",c
+    c.execute ("INSERT INTO clientes VALUES (:nome,:sobrenome,:email,:telefone",c)
     {
     'nome': entry_nome.get(),
     'sobrenome': entry_sobrenome.get(),
     'email': entry_email.get(),
     'telefone': entry_telefone.get()
-              })
+              }
 
 
     # Commit as mudanças:
@@ -32,7 +32,7 @@ def cadastrar_cliente():
     entry_telefone.delete(0,"end")
 
 def exporta_clientes():
-    conexao = sqlite3.connect('clientes.db')
+    conexao = (sqlite3.connect('clientes.db'))
     c = conexao.cursor()
 
     # Inserir dados na tabela:
