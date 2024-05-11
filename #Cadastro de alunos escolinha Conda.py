@@ -1,17 +1,19 @@
-
-#Cadastro de alunos escolinha Conda 
 import sqlite3
+nome=str(input("Digite seu nome = "))
+idade=int(input("Qual idade = "))
+email=bool(input("Digite seu email = "))
+telefone=int(input("Telefone = "))
+
+aluno=aluno=+1
 
 banco = sqlite3.connect('cadastrodealunos.db')#conexao do banco
 
 cursor = banco.cursor()
 
-#cursor.execute("CREAT TABLE alunos(Nome text,idade integer,email text,telefone interger)")
-
-cursor.execute("INSERT INTO alunos VALUES('Thiago',41,'thiago_123@gmail.com''6799215548')")
+banco = VALUES = ('Idade',nome,'Idade',idade,'Email',email,'Telefone',telefone,)
 
 banco.commit('cadastrodealunos.db')
 
-""" cursor.execute("SELECT *FROM alunos")
+#cursor.execute("SELECT *FROM alunos")
 
-print(cursor.fetchall()) """
+#print(cursor.fetchall()) 
