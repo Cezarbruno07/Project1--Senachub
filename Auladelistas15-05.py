@@ -118,10 +118,17 @@ a=[88,86,75,88,99,44,55,88]
 print(a)
 print(a.count(88)) """
 
-#funcão pop = funcão dell elimina o primeiro da lista 
+""" #funcão pop = funcão dell elimina o primeiro da lista 
 a= ["81","82","83","88","98","54"]
 a.pop()
 print(a)
 
 a.pop (0)
 print(a)
+ """
+#funcão extend consigo add varios elementos de uma vez 
+lista =[1,2]
+lista.extend([3,4,5,6,7,8])
+print(lista)
+
+
