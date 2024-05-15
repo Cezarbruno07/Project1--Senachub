@@ -94,8 +94,34 @@ a=["81","82","83"]
 a.append (5)
 print (a)
  """
-#Sort ordenar a lista , de tras para frente é reverse=true
+""" #Sort ordenar a lista , de tras para frente é reverse=true
 
 a=["88","81","84","83"]
 a.sort()
+print(a)
+ """
+""" #função index buscar na lista 
+
+a=["1","2","3","4","5","6","7","8","9"]
+print(a.index(4))
+ """
+
+""" #Função Insert 
+
+a = ["81","82","83","84"]
+a.insert(1,100)
+print(a) """
+
+""" #funcão (cont) conta qtas vezes um dado aparece na lista 
+
+a=[88,86,75,88,99,44,55,88]
+print(a)
+print(a.count(88)) """
+
+#funcão pop = funcão dell elimina o primeiro da lista 
+a= ["81","82","83","88","98","54"]
+a.pop()
+print(a)
+
+a.pop (0)
 print(a)
