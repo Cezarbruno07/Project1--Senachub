@@ -1,5 +1,5 @@
 #Omitindo o inicio indice
-s="Ola mundo"
-print(s[:])
+s="Bruno cezar de souza "
+print(s[:4])
 
 
