@@ -60,10 +60,42 @@ frutas[-1]="laranja"
 print(frutas)
  """
 
+""" 
+# alterando uma lista pronta para excluir um elemento basta add caixa vazia 
 
-# alterando uma lista pronta 
-lista=['a','b','c','d','e','f']
+lista=['b','r','u','n','o','f']
 
 lista[1:3] = ["x","y"]
 
 print (lista)
+ """
+""" #Usar Len na listas faz a leitura de qtos digitos 
+
+lista = ["a","d","f"]
+lista = [1:1] =["b","c"]
+print(lista)
+lista[4:4] = ["e"]
+print(lista)
+               """
+
+""" #remover elementos de lista usando o DEL 
+lista=["um","dois","tres"]
+del lista[1]
+print(lista)
+
+lista =["a","b","c","d","e","f"]
+del lista[1:5]
+print (lista ) """
+
+
+""" #Apend (built-in)adiciona elementos no final da lista 
+
+a=["81","82","83"]
+a.append (5)
+print (a)
+ """
+#Sort ordenar a lista , de tras para frente é reverse=true
+
+a=["88","81","84","83"]
+a.sort()
+print(a)
