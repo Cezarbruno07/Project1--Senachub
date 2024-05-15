@@ -1,4 +1,4 @@
-
+150
 salario_anterior = float(input("Digite seu salário atual: "))
 salario_atual = 0.0
 diferenca_entre_salarios = 0.0
