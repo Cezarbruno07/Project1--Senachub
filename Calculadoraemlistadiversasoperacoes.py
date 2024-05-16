@@ -4,7 +4,7 @@ OPERACOES = {
     'subtração': lambda n1, n2: n1 - n2,
     'multiplicação': lambda n1, n2: n1 * n2,
     'divisão': lambda n1, n2: n1 / n2,
-    # 'potência': lambda n1, n2: n1 ** n2,
+    'potência': lambda n1, n2: n1 ** n2,
 }
 nome_operacao = lambda operacao: list(OPERACOES.keys())[operacao - 1]
 lista_operacoes = list(OPERACOES.keys())
