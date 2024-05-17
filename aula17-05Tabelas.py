@@ -6,11 +6,15 @@ print(t[0][0]+t[0][1]+t[1][0]+t[2][0]+t[2][1]+t[2][2]) """
 
 #escreva uma funcão chamada que receba uam lista de numeros e retorne a soma dos primeiros
 #elementos da lista original
-t=[1,2,3]
+""" t=[1,2,3]
 
-print([t[0],t[0]+t[1],t[0]+t[1]+t[2]])
+print([t[0],t[0]+t[1],t[0]+t[1]+t[2]]) """
 
+#Apagar itens de uma lista 
 
-
+t=[1,2,3,4]
+del t[0],t[-1]
+ 
+print(t)
 
  
