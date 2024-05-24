@@ -1,4 +1,3 @@
-150
 salario_anterior = float(input("Digite seu salário atual: "))
 salario_atual = 0.0
 diferenca_entre_salarios = 0.0
@@ -6,7 +5,7 @@ percentual_de_aumento = 0.0
 
 if salario_anterior <= 280:
     percentual_de_aumento = 20
-elif salario_anterior <= 750:
+elif salario_anterior <= 700:
     percentual_de_aumento = 15
 elif salario_anterior <= 1500:
     percentual_de_aumento = 10
