@@ -1,12 +1,20 @@
-import math
-area = float(input("Digite o TAmanho da aréa "))
-area_perda =area *1.1
-litros_tinta= area_perda /6
-qtd_latas_18=math.ceil(litros_tinta/18)
-qtd_latas_36=math.ceil(litros_tinta/36)
-preco_lata18=qtd_latas_18 *80
-preco_lata36=qtd_latas_18 *25
+print("-- Resevartório de Água --")
 
-qtd_latas_mix=qtd_latas_18
+altura=float(input(" Digite a altura (cm):"))
+largura=int(input(" Digite a largura (cm): "))
+comprimento=float(input(" Digite o comprimento (cm): "))
+c_diario=float(input("Digite o valor do consumo médio diário(litros/dia)= "))
 
-qtd_latas_mix = match.ceil((litros_tinta -qtd_latas_18 *18)/3.6)
+cap_total=((altura*largura,comprimento)/1000); '''o resultado seria em cm3 por isso, dividimos por mil para passar de cm3 para litros'''
+auton_reser=cap_total/c_diario
+
+print("Capacidade do Reservatório= ",cap_total, "litros")
+print("Autonomia do reservatório= ",auton_reser," dias")
+'''Agora, vamos classificar o consumo'''
+if(auton_reser<2):
+print ("Consumo Elevado")
+else auton_reser>=2 and auton_reser:
+     print("Consumo Moderado")
+elif auton_reser>7:
+          	print("\n Consumo Baixo")
+
