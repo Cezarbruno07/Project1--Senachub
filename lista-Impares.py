@@ -1,2 +1,4 @@
-for i in range (1,50,2):# Primeiro elemento inicio Segundo fim , ultimo Passo
-    print(i)
+for i in range (1,100,1):
+    input(" Digite numero = ",i )
+   print (i,"x" "=",i=)
+        
