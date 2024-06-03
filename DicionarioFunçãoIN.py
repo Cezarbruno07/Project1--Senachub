@@ -1,8 +1,8 @@
-#Dicionarios Primeira aula 29/05 função pop
+#Dicionarios Primeira aula 29/05 função GET(Busca)
 
 tradutor1 ={}
 tradutor1 = {"pineaple":"abacaxi","apple":"maca","orange":"laranja"}
-print("pineaple"in tradutor1)
+print("apple"in tradutor1)
 
 
 
