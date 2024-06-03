@@ -50,10 +50,30 @@
 # calcular_pagamento(hora,valor)
 
 
-def soma(x,y):
-    result=x+y 
-    return result
-a= int(input("primeiro: "))
-b= int(input("Segundo numero: "))
-res = soma(a,b)
-print("soma",res)
+# def soma(x,y):
+#     result=x+y 
+#     return result
+# a= int(input("primeiro: "))
+# b= int(input("Segundo numero: "))
+# res = soma(a,b)
+# print("soma",res)
+
+# def invertido (nome,sobrenome):
+#     nomeinverso = sobrenome+ "," +nome 
+#     return nomeinverso
+# nome = input("Nome :")
+# sobrenome = input("Sobrenome : ")
+# invertido = (nome,sobrenome)
+# print("Olá ",invertido)
+
+def par(x):
+    if(x%2)==0:
+        return True
+    else:
+        return False
+while True:
+    num = int(input("Insira um NUmero = "))
+    if par (num):
+        print("È PAr")
+    else:
+        print("È impar")
