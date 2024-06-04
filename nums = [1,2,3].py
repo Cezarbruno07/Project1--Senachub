@@ -1,6 +1,8 @@
-def fun (x, y):
-    if x == y :
-        return x
-    else:
-        return fun (x, y-1)
-    print(fun(0, 3))
+def address(street, city, postal_code):
+    print("Your address is:", street, "St.,", city, postal_code)
+
+s = input("Street: ")
+p_c = input("Postal Code: ")
+c = input("City: ")
+
+address(s, c, p_c)
