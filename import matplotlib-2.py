@@ -4,11 +4,13 @@ import matplotlib.pyplot as plt
 x = [1, 2, 3, 4]
 y = [1, 4, 9, 16]
 
+
 # Criar uma figura e um eixo
 fig, ax = plt.subplots()
 
 # Plotar os dados com as personalizações
 ax.plot(x, y, color='red', linestyle='--', marker='o', label='dados')
+
 
 # Adicionar rótulos e título
 ax.set_xlabel('Rótulo X')
