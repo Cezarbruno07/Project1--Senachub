@@ -19,3 +19,5 @@ while True:
 
 print('Quantidade total: %d' % cont)
 print('Valor total das prestações: %.2f' % total)
+
+import DigiteoVAlordaPrestação
