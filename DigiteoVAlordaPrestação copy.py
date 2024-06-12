@@ -7,9 +7,7 @@ def valorPagamento(valor, dias):
 
         return valor + ((3 * valor)/100) + juros 
 
-
-
-
+##Jogar todo esse conteudo para o codigo
 
 total = 0
 cont = 0
@@ -25,3 +23,8 @@ while True:
 print('Quantidade total: %d' % cont)
 print('Valor total das prestações: %.2f' % total)
 
+
+
+
+
+valorPagamento()
