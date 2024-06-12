@@ -1,10 +1,16 @@
-class A:
-    def _str_(self):
-        return 'a'
-class B:
-    def _str_(self):
-        return'b'
-class C(A,B):
-        pass
-o=c()
-print(o)
+ "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/local/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64",
+            "compileCommands": "${workspaceFolder}/compile_commands.json"
+        }
+    ],
+"version": 4
+
